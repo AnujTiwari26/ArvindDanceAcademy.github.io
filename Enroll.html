@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvind Dance Academy Enroll</title>
+    <link rel="stylesheet" href="Enroll.css">
+</head>
+<body>
+    <nav class="nav">
+        <img id="logo" src="logo.png" alt="Ravi dance Academy">
+        <div >
+            <ul class="options">
+                <li class="item"> <a href="index.html">Home</a> </li>
+                <li class="item"><a href="index.html">Contact Us</a></li>
+                <li class="item"><a href="Enroll.html">Enroll</a></li>
+                <li class="item"><a href="index.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="heading">Enroll To The Arvind Dance Academy</h1>
+    <h3 class="More-heading">Please fill the following form to enroll to our dance academy</h3>
+    <form action="submit.html" class="form">
+        <input type="text" name="Name" id="Name" class="items-of-list" placeholder="Enter You Full Name">
+        <input type="number" name="mobilenumber" class="items-of-list" id="mobilenumber" placeholder="Enter your Mobile Number">
+        <input type="email" name="Email" class="items-of-list" id="Email" placeholder="Enter your valid email">
+        <input type="number" name="age" class="items-of-list" id="age" placeholder="Enter your age">
+        <div class="items-of-list">
+
+            Male<input type="radio" name="Gender" id="Gender-male">
+            Female<input type="radio" name="Gender" id="Gender-female">
+        </div>
+        <textarea name="about-yourself" class="items-of-list" id="about-yourself" cols="30" rows="10" placeholder="Write about yourself, Why you want to join Arvind dance academy" ></textarea >
+            Choose the dance you want to learn<select name="type-of-dance" class="items-of-list" id="type-of-dance" >
+                <option value="Ballet">Ballet</option>
+                <option value="Ball-Dance">Ball Dance</option>
+                <option value="Contemporary">Contemporary</option>
+                <option value="Hip-Hop">Hip-Hop</option>
+                <option value="Jazz">Jazz</option>
+                <option value="Tap-Dancing">Tap Dancing</option>
+                <option value="Folk-Dance">Folk Dance</option>
+                <option value="Irish-Dance">Irish Dance</option>
+            </select>
+        <button type="submit">Enroll</button>
+    </form>
+</body>
+</html>

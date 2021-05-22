@@ -1,0 +1,216 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.nav{
+display: flex;
+background-color:black;
+}
+
+.options{
+    display: flex;
+    padding-left: 0%;
+}
+
+.item{
+    padding: 10px 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+body::before{
+    background: url('backgroung.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 760px;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+#heading{
+    color: rgb(255, 255, 255);
+    
+    width: 900px;
+    height: 600px;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    
+    
+}
+.heading-text{
+    -webkit-text-stroke: 1px black;
+}
+.types-of-dance{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 1px;
+
+}
+.types-of-dance::before{
+    background: wheat;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    opacity: 0.9;
+}
+.dance-type{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 1px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    /* text-align: center; */
+
+}
+.dance-type-image{
+    display: flex;
+    padding: 0px 10px;
+}
+
+#dance-image1::before{
+    background: url('dance-image1.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    z-index: -1;
+    opacity: 0.9;
+}
+#dance-image2::before{
+    background: url('dance-image2.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    z-index: -1;
+    opacity: 0.9;
+}
+#dance-image3::before{
+    background: url('dance-image3.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    z-index: -1;
+    opacity: 0.9;
+}
+#dance-image4::before{
+    background: url('dance-image4.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    z-index: -1;
+    opacity: 0.9;
+}
+#dance-image5::before{
+    background: url('dance-image5.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    z-index: -1;
+    opacity: 0.9;
+}
+#dance-image6::before{
+    background: url('dance-image6.png') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    z-index: -1;
+    opacity: 0.9;
+}
+#dance-image7::before{
+    background: url('dance-image7.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    z-index: -1;
+    opacity: 0.9;
+}
+#dance-image8::before{
+    background: url('dance-image8.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.section1{
+    padding: 10px;
+    width: auto;
+    
+}
+
+.section2{
+    padding-top: 40px;
+}
+.famous-peoples{
+    display: flex;
+    width: 100%;
+    margin: auto;
+
+}
+.people-image{
+    height: 170px;
+    width: 200px;
+    margin: auto;
+}
+#people-image1{
+    background-image: url('people1.jpg')  ;
+}
+#people-image2{
+    background-image: url('people2.jpg');
+}
+#people-image3{
+    background-image: url('people3.jpg');
+}
+.people{
+    margin: 10px 65px;
+    text-align: center;
+}
+
+.section3{
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.footer{
+    background-color: rgb(27, 24, 24);
+    color: white;
+    display: flex;
+}
+
+.footer p{
+    padding: 0px 7px;
+    font-size: 13px;
+}
+
